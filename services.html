@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Cek Anemia</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="CareMed demo project">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="styles/bootstrap4/bootstrap.min.css">
+<link href="plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.carousel.css">
+<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.theme.default.css">
+<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/animate.css">
+<link rel="stylesheet" type="text/css" href="styles/services.css">
+<link rel="stylesheet" type="text/css" href="styles/services_responsive.css">
+</head>
+<body>
+
+<div class="super_container">
+	
+	<!-- Header -->
+
+	<header class="header trans_200">
+		
+		<!-- Top Bar -->
+		<div class="top_bar">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<div class="top_bar_content d-flex flex-row align-items-center justify-content-start">
+							<div class="top_bar_item"><a href="#"></a></div>
+							<div class="top_bar_item"><a href="#"></a></div>
+							<div class="emergencies  d-flex flex-row align-items-center justify-content-start ml-auto">For Emergencies: +563 47558 623</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Header Content -->
+		<div class="header_container">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<div class="header_content d-flex flex-row align-items-center justify-content-start">
+							<nav class="main_nav ml-auto">
+								<ul>
+									<li><a href="index.html">Home</a></li>
+									<li><a href="services.html">Cek Anemia</a></li>
+									<li><a href="about.html">About us</a></li>
+									<li><a href="contact.html">Contact</a></li>
+							</nav>
+							<div class="hamburger ml-auto"><i class="fa fa-bars" aria-hidden="true"></i></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Logo -->
+		<div class="logo_container_outer">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<div class="logo_container">
+							<a href="#">
+								<div class="logo_content d-flex flex-column align-items-start justify-content-center">
+									<div class="logo_line"></div>
+									<div class="logo d-flex flex-row align-items-center justify-content-center">
+										<div class="logo_text">Ane<span>Mia</span></div>
+										<div class="logo_box">+</div>
+									</div>
+									<div class="logo_sub">Proyek independen</div>
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>	
+		</div>
+
+	</header>
+
+	<!-- Menu -->
+
+	<div class="menu_container menu_mm">
+
+		<!-- Menu Close Button -->
+		<div class="menu_close_container">
+			<div class="menu_close"></div>
+		</div>
+
+		<!-- Menu Items -->
+		<div class="menu_inner menu_mm">
+			<div class="menu menu_mm">
+				<ul class="menu_list menu_mm">
+					<li class="menu_item menu_mm"><a href="index.html">Home</a></li>
+					<li class="menu_item menu_mm"><a href="services.html">Cek Anemia</a></li>
+					<li class="menu_item menu_mm"><a href="about.html">About us</a></li>
+					
+					<li class="menu_item menu_mm"><a href="contact.html">Contact</a></li>
+				</ul>
+			</div>
+			<div class="menu_extra">
+				<div class="menu_appointment"><a href="#">Request an Appointment</a></div>
+				<div class="menu_emergencies">For Emergencies: +62 81374201830</div>
+			</div>
+
+		</div>
+
+	</div>
+	
+	<!-- Home -->
+<section>
+	<div class="home">
+		<div class="home_background parallax-window" data-parallax="scroll" data-image-src="images/services.jpg" data-speed="0.8"></div>
+		<div class="home_container">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<div class="home_content">
+							<div class="home_title"><span>Cek</span>Anemia</div>
+							<div class="breadcrumbs">
+								<ul>
+									<li><a href="#">Home</a></li>
+									<li>Cek Anemia</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+	
+
+<section  style="margin-top: 200px;">
+	<style>
+		
+ button.clicked {
+    background-color: blue;
+    color: white;
+}
+
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    width: %;
+    margin: 0 auto;
+  }
+  
+  h2 {
+    margin-top: 0;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="number"],
+  select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #3498db;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #2980b9;
+  }
+  
+  #kuesioner {
+    display: none;
+  }
+  
+  /* Gaya untuk checkbox */
+ 
+  
+  /* Gaya untuk hasil tes */
+  #hasil {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  #skor {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  /* Tambahan: Animasi untuk elemen saat muncul */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .fadeIn {
+    animation: fadeIn 0.5s ease-in-out;
+  }
+  /* CSS untuk hasil tes */
+#hasil {
+    display: none;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  #hasil h2 {
+    margin-bottom: 10px;
+  }
+  
+  #hasilData {
+    margin-bottom: 20px;
+    text-align: left; /* Justifikasi data pengguna ke kiri */
+  }
+  
+  #hasilData p {
+    margin-bottom: 8px;
+  }
+  
+  #hasilData p span {
+    font-weight: bold;
+  }
+  
+  #skor {
+    font-weight: bold;
+  }
+  
+  #keterangan {
+    text-align: justify; /* Justifikasi teks keterangan */
+  }
+  fieldset fieldset {
+      display: none;
+    }
+  .jenisKelaminDropdown {
+  width: 100%;
+  padding: 1px;
+  margin-bottom: 23px; /* Atur jarak antara dropdown dan tombol */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  line-height: 1.; 
+}
+	</style>
+	<div class="container">
+		<div id="biodataForm">
+		  <h2>Masukkan Biodata</h2>
+		  <label for="nama">Nama:</label>
+		  <input type="text" id="nama">
+		  <label for="umur">Umur:</label>
+		  <input type="number" id="umur">
+		  <label for="jenisKelamin">Jenis Kelamin:</label>
+		  <select id="jenisKelamin">
+			
+			<option value="perempuan">Perempuan</option>
+		  </select>
+		  <button onclick="lanjutkanTes()">Lanjutkan Tes</button>
+		</div>
+		<div id="kuesioner" style="display: none;">
+		  <h2>Kuesioner Anemia</h2>
+		  <form id="quizForm">
+			<!-- Pertanyaan 1 -->
+			<div id="pertanyaan1">
+			  <p>Pertanyaan 1: Apakah anda sering mengalami pusing?</p>
+			  <label>
+				<input type="checkbox" id="p1Ya" onclick="jawab('p1', 'ya')"> Ya
+			  </label>
+			  <label>
+				<input type="checkbox" id="p1Kadang" onclick="jawab('p1', 'kadang')"> Kadang
+			  </label>
+			  <label>
+				<input type="checkbox" id="p1Tidak" onclick="jawab('p1', 'tidak')"> Tidak
+			  </label>
+			</div>
+			
+			<div id="pertanyaan2">
+			  <p>Pertanyaan 2: Apakah anda sering mengalami jaundice(kulit dan mata menjadi kuning)?</p>
+			  <label>
+				<input type="checkbox" id="p2Ya" onclick="jawab('p2', 'ya')"> Ya
+			  </label>
+			  <label>
+				<input type="checkbox" id="p2Kadang" onclick="jawab('p2', 'kadang')"> Kadang
+			  </label>
+			  <label>
+				<input type="checkbox" id="p2Tidak" onclick="jawab('p2', 'tidak')"> Tidak
+			  </label>
+			</div>
+			
+			<!-- Menambahkan pertanyaan-pertanyaan lainnya secara serupa hingga pertanyaan kelima -->
+			<div id="pertanyaan3">
+			  <p>Pertanyaan 3: Apakah anda sering mengalami perubahan mood/suasana hati?</p>
+			  <label>
+				<input type="checkbox" id="p3Ya" onclick="jawab('p3', 'ya')"> Ya
+			  </label>
+			  <label>
+				<input type="checkbox" id="p3Kadang" onclick="jawab('p3', 'kadang')"> Kadang
+			  </label>
+			  <label>
+				<input type="checkbox" id="p3Tidak" onclick="jawab('p3', 'tidak')"> Tidak
+			  </label>
+			</div>
+			
+			<div id="pertanyaan4">
+			  <p>Pertanyaan 4: Apakah anda sering mengalami 5L (lemah, lesu,lelah,letih,lunglai)?</p>
+			  <label>
+				<input type="checkbox" id="p4Ya" onclick="jawab('p4', 'ya')"> Ya
+			  </label>
+			  <label>
+				<input type="checkbox" id="p4Kadang" onclick="jawab('p4', 'kadang')"> Kadang
+			  </label>
+			  <label>
+				<input type="checkbox" id="p4Tidak" onclick="jawab('p4', 'tidak')"> Tidak
+			  </label>
+			</div>
+			
+			<div id="pertanyaan5">
+			  <p>Pertanyaan 5: Apakah anda sering mengalami pusing terutama saat aktif atau berdiri?</p>
+			  <label>
+				<input type="checkbox" id="p5Ya" onclick="jawab('p5', 'ya')"> Ya
+			  </label>
+			  <label>
+				<input type="checkbox" id="p5Kadang" onclick="jawab('p5', 'kadang')"> Kadang
+			  </label>
+			  <label>
+				<input type="checkbox" id="p5Tidak" onclick="jawab('p5', 'tidak')"> Tidak
+			  </label>
+			</div>
+			
+			<div id="pertanyaan6">
+			  <p>Pertanyaan 6: Apakah anda sering mengalami detak jantung yang sangat cepat atau tidak teratur?</p>
+			  <label>
+				<input type="checkbox" id="p6Ya" onclick="jawab('p6', 'ya')"> Ya
+			  </label>
+			  <label>
+				<input type="checkbox" id="p6Kadang" onclick="jawab('p6', 'kadang')"> Kadang
+			  </label>
+			  <label>
+				<input type="checkbox" id="p6Tidak" onclick="jawab('p6', 'tidak')"> Tidak
+			  </label>
+			</div>
+	
+			<div id="pertanyaan7">
+			  <p>Pertanyaan 7: Apakah anda sering mengalami sesak napas?</p>
+			  <label>
+				<input type="checkbox" id="p7Ya" onclick="jawab('p7', 'ya')"> Ya
+			  </label>
+			  <label>
+				<input type="checkbox" id="p7Kadang" onclick="jawab('p7', 'kadang')"> Kadang
+			  </label>
+			  <label>
+				<input type="checkbox" id="p7Tidak" onclick="jawab('p7', 'tidak')"> Tidak
+			  </label>
+			</div>
+	
+			<div id="pertanyaan8">
+			  <p>Pertanyaan 8: 	Apakah nada sering mengalami nyeri pada dada?</p>
+			  <label>
+				<input type="checkbox" id="p8Ya" onclick="jawab('p8', 'ya')"> Ya
+			  </label>
+			  <label>
+				<input type="checkbox" id="p8Kadang" onclick="jawab('p8', 'kadang')"> Kadang
+			  </label>
+			  <label>
+				<input type="checkbox" id="p8Tidak" onclick="jawab('p8', 'tidak')"> Tidak
+			  </label>
+			</div>
+	
+			<div id="pertanyaan9">
+			  <p>Pertanyaan 9:	Apakah anda sering mudah mengantuk?</p>
+			  <label>
+				<input type="checkbox" id="p9Ya" onclick="jawab('p9', 'ya')"> Ya
+			  </label>
+			  <label>
+				<input type="checkbox" id="p9Kadang" onclick="jawab('p9', 'kadang')"> Kadang
+			  </label>
+			  <label>
+				<input type="checkbox" id="p9Tidak" onclick="jawab('p9', 'tidak')"> Tidak
+			  </label>
+			</div>
+	
+			<div id="pertanyaan10">
+			  <p>Pertanyaan 10:	Apakah anda sering minum tablet tambah darah?</p>
+			  <label>
+				<input type="checkbox" id="p10Ya" onclick="jawab('p10', 'ya')"> Ya
+			  </label>
+			  <label>
+				<input type="checkbox" id="p10Kadang" onclick="jawab('p10', 'kadang')"> Kadang
+			  </label>
+			  <label>
+				<input type="checkbox" id="p10Tidak" onclick="jawab('p10', 'tidak')"> Tidak
+			  </label>
+			</div>
+			<!-- Lanjutan pertanyaan lainnya -->
+			<!-- ... -->
+			<button type="button" onclick="hitungSkor()">Submit</button>
+		  </form>
+		</div>
+		<div id="hasil" style="display: none;">
+			<h2>Hasil Tes</h2>
+			<div id="hasilData">
+			<p>Nama: <span id="hasilNama"></span></p>
+			<p>Umur: <span id="hasilUmur"></span></p>
+			<p>Jenis Kelamin: <span id="hasilJenisKelamin"></span></p>
+			<p>Skor: <span id="skor"></span>%</p>
+			<p id="keterangan"></p>
+		  </div>
+	  </div>
+	  <script>
+		let biodata = {};
+	let skor = 0;
+	
+	function lanjutkanTes() {
+	  const nama = document.getElementById('nama').value;
+	  const umur = document.getElementById('umur').value;
+	  const jenisKelamin = document.getElementById('jenisKelamin').value;
+	  
+	  biodata = {
+		nama,
+		umur,
+		jenisKelamin
+	  };
+	
+	  document.getElementById('biodataForm').style.display = 'none';
+	  document.getElementById('kuesioner').style.display = 'block';
+	}
+	
+	function jawab(pertanyaan, jawaban) {
+	  if (pertanyaan === 'p1') {
+		const yaChecked = document.getElementById('p1Ya').checked;
+		const kadangChecked = document.getElementById('p1Kadang').checked;
+		const tidakChecked = document.getElementById('p1Tidak').checked;
+	
+		if (yaChecked) {
+		  skor += 10;
+		} else if (kadangChecked) {
+		  skor += 5;
+		}
+		// Lanjutkan dengan pertanyaan lainnya dan penilaian skor
+	  } else if (pertanyaan === 'p2') {
+		const yaChecked = document.getElementById('p2Ya').checked;
+		const kadangChecked = document.getElementById('p2Kadang').checked;
+		const tidakChecked = document.getElementById('p2Tidak').checked;
+	
+		if (yaChecked) {
+		  skor += 10;
+		} else if (kadangChecked) {
+		  skor += 5;
+		}
+		// Lanjutkan dengan pertanyaan lainnya dan penilaian skor
+	  } else if (pertanyaan === 'p3') {
+		const yaChecked = document.getElementById('p3Ya').checked;
+		const kadangChecked = document.getElementById('p3Kadang').checked;
+		const tidakChecked = document.getElementById('p3Tidak').checked;
+	
+		if (yaChecked) {
+		  skor += 10;
+		} else if (kadangChecked) {
+		  skor += 5;
+		}
+		// Lanjutkan dengan pertanyaan lainnya dan penilaian skor
+	  } else if (pertanyaan === 'p4') {
+		const yaChecked = document.getElementById('p4Ya').checked;
+		const kadangChecked = document.getElementById('p4Kadang').checked;
+		const tidakChecked = document.getElementById('p4Tidak').checked;
+	
+		if (yaChecked) {
+		  skor += 10;
+		} else if (kadangChecked) {
+		  skor += 5;
+		}
+		// Lanjutkan dengan pertanyaan lainnya dan penilaian skor
+	  } else if (pertanyaan === 'p5') {
+		const yaChecked = document.getElementById('p5Ya').checked;
+		const kadangChecked = document.getElementById('p5Kadang').checked;
+		const tidakChecked = document.getElementById('p5Tidak').checked;
+	
+		if (yaChecked) {
+		  skor += 10;
+		} else if (kadangChecked) {
+		  skor += 5;
+		}
+	
+	  } else if (pertanyaan === 'p6') {
+		const yaChecked = document.getElementById('p6Ya').checked;
+		const kadangChecked = document.getElementById('p6Kadang').checked;
+		const tidakChecked = document.getElementById('p6Tidak').checked;
+	
+		if (yaChecked) {
+		  skor += 10;
+		} else if (kadangChecked) {
+		  skor += 5;
+		}
+	
+	  } else if (pertanyaan === 'p7') {
+		const yaChecked = document.getElementById('p7Ya').checked;
+		const kadangChecked = document.getElementById('p7Kadang').checked;
+		const tidakChecked = document.getElementById('p7Tidak').checked;
+	
+		if (yaChecked) {
+		  skor += 10;
+		} else if (kadangChecked) {
+		  skor += 5;
+		}
+	  } else if (pertanyaan === 'p8') {
+		const yaChecked = document.getElementById('p8Ya').checked;
+		const kadangChecked = document.getElementById('p8Kadang').checked;
+		const tidakChecked = document.getElementById('p8Tidak').checked;
+	
+		if (yaChecked) {
+		  skor += 10;
+		} else if (kadangChecked) {
+		  skor += 5;
+		}
+	  } else if (pertanyaan === 'p9') {
+		const yaChecked = document.getElementById('p9Ya').checked;
+		const kadangChecked = document.getElementById('p9Kadang').checked;
+		const tidakChecked = document.getElementById('p9Tidak').checked;
+	
+		if (yaChecked) {
+		  skor += 10;
+		} else if (kadangChecked) {
+		  skor += 5;
+		}
+	  } else if (pertanyaan === 'p10') {
+		const yaChecked = document.getElementById('p10Ya').checked;
+		const kadangChecked = document.getElementById('p10Kadang').checked;
+		const tidakChecked = document.getElementById('p10Tidak').checked;
+	
+		if (yaChecked) {
+		  skor += 10;
+		} else if (kadangChecked) {
+		  skor += 5;
+		}
+		// Lanjutkan dengan pertanyaan lainnya dan penilaian skor
+	  }
+	}
+	
+	function hitungSkor() {
+	  const nama = document.getElementById('nama').value;
+	  const umur = document.getElementById('umur').value;
+	  const jenisKelamin = document.getElementById('jenisKelamin').value;
+	
+	  biodata = {
+		nama,
+		umur,
+		jenisKelamin
+	  };
+	
+	  document.getElementById('hasilNama').innerText = biodata.nama;
+	  document.getElementById('hasilUmur').innerText = biodata.umur;
+	  document.getElementById('hasilJenisKelamin').innerText = biodata.jenisKelamin;
+	
+	  document.getElementById('skor').innerText = skor.toFixed(2);
+	
+	  const keteranganElem = document.getElementById('keterangan');
+	  if (skor >= 50) {
+		keteranganElem.innerText = 'Anda memiliki kemungkinan anemia, segera konsultasikan dengan dokter.';
+	  } else {
+		keteranganElem.innerText = 'Anda kemungkinan tidak mengalami anemia, namun tetap disarankan untuk konsultasi jika gejala terus berlanjut.';
+	  }
+	
+	  document.getElementById('kuesioner').style.display = 'none';
+	  document.getElementById('hasil').style.display = 'block';
+	}
+	
+	
+	function hitungSkor() {
+	  const nama = document.getElementById('nama').value;
+	  const umur = document.getElementById('umur').value;
+	  const jenisKelamin = document.getElementById('jenisKelamin').value;
+	
+	  biodata = {
+		nama,
+		umur,
+		jenisKelamin
+	  };
+	
+	  document.getElementById('hasilNama').innerText = biodata.nama;
+	  document.getElementById('hasilUmur').innerText = biodata.umur;
+	  document.getElementById('hasilJenisKelamin').innerText = biodata.jenisKelamin;
+	
+	  document.getElementById('skor').innerText = skor.toFixed(2);
+	
+	  const keteranganElem = document.getElementById('keterangan');
+	  let keterangan = '';
+	  
+	  if (skor >= 90) {
+		keterangan = 'Anda kemungkinan mengalami anemia berat (hemoglobin rendah), segera dapatkan perawatan medis darurat.';
+	} else if (skor >= 70 && skor < 90) {
+		keterangan = 'Anda kemungkinan mengalami anemia sedang, segera konsultasikan dengan dokter untuk evaluasi dan perawatan yang tepat.';
+	} else if (skor >= 50 && skor < 70) {
+		keterangan = 'Anda kemungkinan mengalami anemia ringan, disarankan untuk berkonsultasi dengan dokter untuk evaluasi lebih lanjut.';
+	} else if (skor < 50) {
+		keterangan = 'Anda kemungkinan tidak mengalami anemia (hemoglobin normal), tetapi tetap perhatikan kesehatan secara umum.';
+	} else {
+		keterangan = 'Perhatikan hasil tes Anda, namun penilaian lebih lanjut dari dokter dibutuhkan untuk diagnosis yang tepat.';
+	}
+	
+	
+	
+	  keteranganElem.innerText = keterangan;
+	
+	
+	  document.getElementById('kuesioner').style.display = 'none';
+	  document.getElementById('hasil').style.display = 'block';
+	}
+	  </script>
+
+	</main>
+</section>
+
+	<!-- Footer -->
+
+	<footer style="margin-top: 70px;" class="footer">
+		<div class="footer_container">
+			<div class="container">
+				<div class="row">
+					
+					<!-- Footer - About -->
+					<div class="col-lg-4 footer_col">
+						<div class="footer_about">
+							<div class="footer_logo_container">
+								<a href="#" class="d-flex flex-column align-items-center justify-content-center">
+									<div class="logo_content">
+										<div class="logo d-flex flex-row align-items-center justify-content-center">
+											<div class="logo_text">Ane<span>Mia</span></div>
+											<div class="logo_box">+</div>
+										</div>
+										<div class="logo_sub">Proyek independen</div>
+									</div>
+								</a>
+							
+								<ul class="footer_about_list">
+									<li><div class="footer_about_icon"><img src="images/phone-call.svg" alt=""></div><span>+62 81374201830</span></li>
+									<li><div class="footer_about_icon"><img src="images/envelope.svg" alt=""></div><span>sehatiindependen9@gmail.com</span></li>
+									<li><div class="footer_about_icon"><img src="images/placeholder.svg" alt=""></div><span>Ikes payung negeri Pekanbaru</span></li>
+								</ul>
+						</div>
+					</div>
+
+				
+
+					<!-- Footer - News -->
+					<div class="col-lg-4 footer_col">
+						<div class="footer_news footer_column">
+							<div class="footer_title"></div>
+							<ul>
+								<lass="footer_news_date"></div>
+								</li>
+								<li>
+									<d
+								</li>
+								
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="copyright">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<div class="copyright_content d-flex flex-lg-row flex-column align-items-lg-center justify-content-start">
+							<div class="cr"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="" target="_blank">Kelompok 9</a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></div>
+							<div class="footer_social ml-lg-auto">
+								<ul> <li><a href="#"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
+									<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+									<li><a href="https://maps.app.goo.gl/AvGzqcE8eXCoNFqm6"><i class="fa fa-map-marker" aria-hidden="true"></i></a></li>
+									<li><a href="sehatiindependen9@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>			
+		</div>
+	</footer>
+</div>
+
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="styles/bootstrap4/popper.js"></script>
+<script src="styles/bootstrap4/bootstrap.min.js"></script>
+<script src="plugins/easing/easing.js"></script>
+<script src="plugins/parallax-js-master/parallax.min.js"></script>
+<script src="js/services.js"></script>
+</body>
+</html>
